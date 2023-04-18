@@ -16,11 +16,13 @@ Python OS version 0.1 (BETA)
 В этой папке создайте файл __init__.py, в
 нём напишите:
 
+```
 app = App()
 window = app.window()
 text = Label(window, text="Hello World!")
 text.place(x=0, y=0)
 window.configure(width=100, height=100)
+```
 
 Данный код поможет Вам создать своё приложение.
 Далее в папке System зайдите в файл menu.init

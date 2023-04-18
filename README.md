@@ -8,6 +8,24 @@ Python OS version 0.1 (BETA)
 подсчёт примера на калькуляторе и т.д.
 появяться в новых версиях системы.
 
+#__НАСТРОЙКИ СИСТЕМЫ__#
+Чтобы настроить систему под себя, надо
+зайти в папку ```system```, а далее
+в файл ```settings.init```.
+В нём Вы можете указать настройки
+системы типа язык, размеры экрана,
+цвета интерфейса.
+
+```
+self.color = "dark blue"
+self.desktop_color = "dark blue"
+self.buttons_color = "light blue"
+self.buttons_text_color = "black"
+self.width = 700
+self.height = 400
+self.language = "en/en" # (en/en) or (ru/ru)
+```
+
 #___ДЛЯ РАЗРАБОТЧИКА___#
 Чтобы создать своё приложение, необходимо
 в папке PythonOS рядом с файлом main.py

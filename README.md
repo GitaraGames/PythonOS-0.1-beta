@@ -17,11 +17,14 @@ Python OS version 0.1 (BETA)
 нём напишите:
 
 ```
-app = App()
+import main
+from tkinter import *
+
+app = main.App()
 window = app.window()
 text = Label(window, text="Hello World!")
-text.place(x=0, y=0)
-window.configure(width=100, height=100)
+text.place(x=0, y=50)
+window.configure(width=200, height=200)
 ```
 
 Данный код поможет Вам создать своё приложение.
